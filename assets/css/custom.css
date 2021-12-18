@@ -1,0 +1,118 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+.typing-demo {
+  width: 10ch;
+  animation: typing 1.5s steps(22), blink 0.5s step-end infinite alternate;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .typing-demo {
+    font-size: 2rem;
+    position: absolute;
+    top: 13%;
+    left: 34%;
+    font-weight: bold;
+  }
+}
+@media (max-width: 575.98px) {
+  .typing-demo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 479.98px){
+  .typing-demo {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.petz-footer {
+  background: linear-gradient(#ab5530, #fd940a);
+  position: relative;
+}
+
+.petz-footer li {
+  list-style: none;
+}
+
+.footer-widget {
+  padding-top: 50px;
+}
+
+.footer-widget-title {
+  color: #108896;
+  text-align: center;
+}
+
+.footer-info li {
+  line-height: 30px;
+}
+
+.footer-info i {
+  font-size: 17px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  background: #fff;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.social-media a:hover {
+  background: #ffffff;
+  color: #108896;
+  transform: scale(1.2);
+  border-color: #108896;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25%;
+}
+
+.social-media img {
+  max-width: 70%;
+}
+
+.flw {
+  float: inherit;
+  width: 100%;
+}
+
+.background-pp-3 {
+  background-color: #ab5530;
+}
